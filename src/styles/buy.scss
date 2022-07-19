@@ -1,0 +1,107 @@
+.buynow-area {
+  margin: 20px;
+  padding: 5px;
+  .header {
+    font-size: 50px;
+    font-weight: 500;
+    color: rgba(128, 128, 128, 0.4);
+    margin-bottom: 15px;
+  }
+  .cart-contents {
+    padding: 10px;
+    .cart-components {
+      background-color: rgba(128, 128, 128, 0.13);
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      padding: 15px;
+      //align-items: center;
+      .img-space {
+        width: 250px;
+        height: 300px;
+        img {
+          max-height: 100%;
+        }
+      }
+      .content-info {
+        padding: 10px;
+        display: flex;
+        //justify-content: center;
+        // align-items: center;
+        flex-direction: column;
+      }
+      .title {
+        font-size: 25px;
+        font-weight: bold;
+      }
+      .sub-title,
+      .description {
+        font-size: 12px;
+      }
+      .sub-title {
+        margin-bottom: 10px;
+      }
+      .price {
+        //margin: 0 auto;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: auto;
+      }
+      .delete-item{
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: auto;
+        button{
+          width: 150px;
+      height: 45px;
+      font-size: 15px;
+      font-weight: 400;
+      color: white;
+      background-color: rgba(151, 41, 41, 0.714);
+      padding: 7px;
+      border: none;
+      transition: all 0.25s ease-in-out;
+      text-align: center;
+      &:hover{
+          background-color: rgba(232, 15, 15, 0.705);
+      }
+        }
+      }
+    }
+  }
+  .last-area{
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .total-item{
+      font-size: 12px;
+      font-weight: 500;
+      margin-bottom: 10px;
+      color: gray;
+    }
+    .total-cost{
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    .buy-now-button {
+      //top:0;
+      width: 280px;
+      height: 45px;
+      font-size: 15px;
+      font-weight: 400;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.551);
+      padding: 7px;
+      border: none;
+      transition: all 0.25s ease-in-out;
+      text-align: center;
+      &:hover{
+          background-color: black;
+      }
+    }
+  }
+}

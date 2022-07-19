@@ -1,0 +1,98 @@
+.nav-custom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*   position: absolute;
+  z-index: 1000;
+  width: 100%; */
+}
+
+.nav-custom .left-content .company-logo {
+  font-weight: 500;
+  font-size: 25px;
+  margin: 15px 25px;
+  color: black;
+}
+
+.nav-custom .right-content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0;
+}
+
+.nav-custom .right-content ul .nav-link-area {
+  list-style: none;
+  margin: 15px 25px;
+}
+
+.nav-custom .right-content ul .nav-link-area .custom-drop {
+  background-color: rgba(0, 0, 0, 0.516);
+  color: white;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.nav-custom .right-content ul .nav-link-area .custom-drop:hover {
+  background-color: black;
+}
+
+.nav-custom .right-content ul .nav-link-area a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.493);
+  display: inline-block;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.nav-custom .right-content ul .nav-link-area a:after {
+  content: "";
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: black;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.nav-custom .right-content ul .nav-link-area a:hover::after {
+  width: 100%;
+  font-weight: 500;
+}
+
+.nav-custom .right-content ul .nav-link-area a:hover {
+  color: black;
+}
+
+.right-content span {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .right-content li {
+    display: none;
+  }
+  .right-content span {
+    display: block;
+    margin-right: 25px;
+  }
+}
+/*# sourceMappingURL=nav.css.map */

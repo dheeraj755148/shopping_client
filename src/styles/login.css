@@ -1,0 +1,103 @@
+.login-area {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login-area .heading {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.login-area form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-area .input-fields {
+  margin: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.login-area .input-fields input {
+  border: none;
+  width: 280px;
+  height: 33px;
+  padding: 7px;
+  outline: none;
+  font-size: 12px;
+}
+
+.login-area button {
+  width: 280px;
+  height: 37px;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.551);
+  padding: 7px;
+  border: none;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.login-area button:hover {
+  background-color: black;
+}
+
+.login-area .not-register {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.login-area .not-register .link-to {
+  color: gray;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.login-area .not-register .link-to:hover {
+  color: black;
+}
+
+.loading-time {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: gray;
+}
+/*# sourceMappingURL=login.css.map */

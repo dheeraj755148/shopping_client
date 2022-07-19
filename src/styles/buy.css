@@ -1,0 +1,141 @@
+.buynow-area {
+  margin: 20px;
+  padding: 5px;
+}
+
+.buynow-area .header {
+  font-size: 50px;
+  font-weight: 500;
+  color: rgba(128, 128, 128, 0.4);
+  margin-bottom: 15px;
+}
+
+.buynow-area .cart-contents {
+  padding: 10px;
+}
+
+.buynow-area .cart-contents .cart-components {
+  background-color: rgba(128, 128, 128, 0.13);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.buynow-area .cart-contents .cart-components .img-space {
+  width: 250px;
+  height: 300px;
+}
+
+.buynow-area .cart-contents .cart-components .img-space img {
+  max-height: 100%;
+}
+
+.buynow-area .cart-contents .cart-components .content-info {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.buynow-area .cart-contents .cart-components .title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.buynow-area .cart-contents .cart-components .sub-title,
+.buynow-area .cart-contents .cart-components .description {
+  font-size: 12px;
+}
+
+.buynow-area .cart-contents .cart-components .sub-title {
+  margin-bottom: 10px;
+}
+
+.buynow-area .cart-contents .cart-components .price {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: auto;
+}
+
+.buynow-area .cart-contents .cart-components .delete-item {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: auto;
+}
+
+.buynow-area .cart-contents .cart-components .delete-item button {
+  width: 150px;
+  height: 45px;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  background-color: rgba(151, 41, 41, 0.714);
+  padding: 7px;
+  border: none;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  text-align: center;
+}
+
+.buynow-area .cart-contents .cart-components .delete-item button:hover {
+  background-color: rgba(232, 15, 15, 0.705);
+}
+
+.buynow-area .last-area {
+  position: fixed;
+  z-index: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.buynow-area .last-area .total-item {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.buynow-area .last-area .total-cost {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.buynow-area .last-area .buy-now-button {
+  width: 280px;
+  height: 45px;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.551);
+  padding: 7px;
+  border: none;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  text-align: center;
+}
+
+.buynow-area .last-area .buy-now-button:hover {
+  background-color: black;
+}
+/*# sourceMappingURL=buy.css.map */
